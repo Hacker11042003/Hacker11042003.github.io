@@ -30,6 +30,9 @@ body{
 .menu{
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
     padding-left: 8rem;
     padding-right: 8rem;
     align-items: center;
@@ -63,12 +66,9 @@ body{
 
 
 
-
-
-
 .content{
     background-image: url('../img/background.png');
-    height: 100vh;
+    height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -78,18 +78,72 @@ body{
     color: white;
 }
 .content-text{
-    padding-top: 7rem;
+    padding-right: 14rem;
 }
-.content-text h3{
-    font-family: ;
-    font-size: 45px;
-    font-weight: 600;
+.text-h3{
+    padding: 6rem 54rem 3rem 0;
+    font-size: 50px;
 
 }
 .content-text p{
     font-size: 25px;
     font-weight: 300;
+    padding: 0 50px 2px 0;
 }
+
 .content-text button{
-    padding: 10px;
+    padding: 20px 60px;
+    font-size: 25px;
+}
+.content-icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    gap: 2rem;
+}
+
+.content-icons a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------------------------------------------*/
+
+.servises-block1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servises-block1 img{
+    width: 100%;
+}
+.servises-block1 h1{
+    white-space: nowrap;
+    font-size: 45px;
+    font-weight: 300;
+
+}
+
+/* ------------------------------------------------------ */
+
+.servises-block{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: center;
+    margin: 20px;
+}
+.servises-block2{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.servises-block2 img{
+    width: 150px;
+}
+.servises-block2 h3{
+    padding-right: 0 30px ;
+
+
+   
 }
