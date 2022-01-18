@@ -130,20 +130,113 @@ body{
 .servises-block{
     display: flex;
     justify-content: space-between;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     text-align: center;
-    margin: 20px;
+    margin: 0 8px 30px 0 ;
 }
 .servises-block2{
+    padding: 0 0px 55px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
+.servises-block2 p{
+    color: #5E5E5E;
+    
+}
+
 .servises-block2 img{
     width: 150px;
 }
 .servises-block2 h3{
     padding-right: 0 30px ;
 
+}
 
-   
+
+
+/* -----------------------------------our work----------------------------- */
+
+
+.our-work{
+    display: flex;
+    justify-content: space-around;
+}
+.our-work div{
+    padding: 100px;
+    margin: 8rem 0 0 0;
+    padding-left: 8rem;
+    padding-right: 8rem;
+
+}
+.our-work h3{
+    color: #fff;
+    padding-top: 7rem;
+}
+
+.bacgraund{
+    background-image: url("../img/работа/photo.png");
+    width: 150px;
+
+}
+
+.bacgraund1{
+    background-image: url("../img/работа/bacgraund.png");
+}
+.bacgraund2{
+    background-image: url("../img/background.png");
+}
+/* ------------------------------------------------------- */
+.bacgraund3{
+    background-image: url("../img/работа/bacgraund1.png");
+}
+.bacgraund4{
+    background-image: url("../img/работа/photo.png");
+}
+.bacgraund5{
+    background-image: url("../img/работа/bacgraund2.png");
+} 
+
+
+
+/* mobile start */ 
+@media ( max-width: 480px){
+    .toolbar{
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    .toolbar-flex{
+        font-size: 12px;
+    }
+    .toolbar-flex a{
+        font-size: 12px;
+    }
+    .menu{
+        display: none;
+    }
+    .content{
+        top: 0;
+        padding: 0;
+        text-align: center;
+        display: block;
+        height: 100vh;
+    }
+    .content-icons{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .servises h1{
+        width: 100% ;
+    }
+    .servises-block{
+        padding: 0;
+        display: block;
+    }
+
+     .content-text{
+         font-size: 15px;
+         padding: 0;
+     }
+
+
 }
