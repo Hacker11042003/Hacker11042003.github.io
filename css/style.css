@@ -270,6 +270,51 @@ body{
 }
 
 
+/* form------------ */
+
+.formblock{
+    text-align: center  ;
+    margin: 4rem;
+}
+.formblock h2{
+    font-size: 30px;
+}
+.formblock p{
+    color: #585858;
+    font-size: 20px;
+  
+}
+.form input{
+    padding: 12px 0 0 0;
+}
+
+
+
+/* footer----------------- */
+
+
+footer{
+    background-color: #3A3A3A;
+    padding-right: 15rem;
+}
+
+.footerblock{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    color: #BCBBBB;
+   
+}
+.footerblock li{
+    list-style: none;
+}
+
+.footerdiv{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
 
 
 /* mobile start */ 
