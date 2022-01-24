@@ -163,7 +163,6 @@ body{
 }
 .our-work div{
     padding: 100px;
-    margin: 8rem 0 0 0;
     padding-left: 8rem;
     padding-right: 8rem;
 
@@ -173,28 +172,103 @@ body{
     padding-top: 7rem;
 }
 
+
 .bacgraund{
     background-image: url("../img/работа/photo.png");
+    background-repeat: no-repeat;
     width: 150px;
-
 }
 
 .bacgraund1{
     background-image: url("../img/работа/bacgraund.png");
+    background-repeat: no-repeat;
 }
 .bacgraund2{
-    background-image: url("../img/background.png");
+    background-image: url("../img/работа/bacgraund.png");
+    background-repeat: no-repeat;
+
 }
 /* ------------------------------------------------------- */
 .bacgraund3{
     background-image: url("../img/работа/bacgraund1.png");
+    background-repeat: no-repeat;
+
 }
 .bacgraund4{
     background-image: url("../img/работа/photo.png");
+    background-repeat: no-repeat;
+
 }
 .bacgraund5{
     background-image: url("../img/работа/bacgraund2.png");
+    background-repeat: no-repeat;
+
 } 
+
+.bt{
+    margin:0 50rem 3rem;
+    display: flex;
+    padding: 15px 0 0 6.5rem;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: #fff;
+    width: 20rem;
+    height: 3.5rem;
+}
+
+
+
+/* productions----------------- */
+
+
+
+
+.productions{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+
+
+
+
+/* our prise list-------- */
+
+
+
+.ourpriselist{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0 3rem 0 ;
+    gap: 9rem;
+    text-align: center;
+    padding-left: 8rem;
+    padding-right: 7rem;
+}
+
+/* our clients-------  */
+
+
+.ourclients{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0 1rem 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* our comands------------ */
+
+.our-comands{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin: 5rem 0 0 0;
+}
+.our-comands p{
+    color:#6F6C6C;
+}
+
 
 
 
